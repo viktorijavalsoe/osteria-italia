@@ -2,6 +2,7 @@ import React from 'react';
 import {Table, Button, Row, Col, Container} from 'reactstrap';
 import axios from "axios";
 import {ModifyBooking} from "../ModifyBooking/ModifyBooking";
+import './Admin.scss';
 
 interface IAdminState {
   bookings: any;
